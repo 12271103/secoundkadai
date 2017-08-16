@@ -12,6 +12,7 @@
 		21102E951F407D9000364A16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21102E931F407D9000364A16 /* Main.storyboard */; };
 		21102E971F407D9000364A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21102E961F407D9000364A16 /* Assets.xcassets */; };
 		21102E9A1F407D9000364A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21102E981F407D9000364A16 /* LaunchScreen.storyboard */; };
+		21102EA21F40827300364A16 /* AisatsuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21102EA11F40827300364A16 /* AisatsuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		21102E961F407D9000364A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21102E991F407D9000364A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21102E9B1F407D9000364A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21102EA11F40827300364A16 /* AisatsuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AisatsuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				21102E8F1F407D9000364A16 /* AppDelegate.swift */,
 				21102E911F407D9000364A16 /* ViewController.swift */,
 				21102E931F407D9000364A16 /* Main.storyboard */,
+				21102EA11F40827300364A16 /* AisatsuViewController.swift */,
 				21102E961F407D9000364A16 /* Assets.xcassets */,
 				21102E981F407D9000364A16 /* LaunchScreen.storyboard */,
 				21102E9B1F407D9000364A16 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21102E921F407D9000364A16 /* ViewController.swift in Sources */,
+				21102EA21F40827300364A16 /* AisatsuViewController.swift in Sources */,
 				21102E901F407D9000364A16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

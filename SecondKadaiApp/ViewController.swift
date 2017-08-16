@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+  @IBOutlet weak var textField: UITextField!
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -18,6 +19,16 @@ class ViewController: UIViewController {
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
+  }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    let aisatsuViweController:AisatsuViewController = segue.destination as! AisatsuViewController
+    aisatsuViweController.name = textField.text!
+    
+  }
+  
+  @IBAction func unwind(_ segue:UIStoryboardSegue){
+    
   }
 
 
